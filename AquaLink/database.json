@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "7b2c4a766341",
+      "name": "Admin User",
+      "email": "admin@aqualink.org",
+      "passwordHash": "f15a4716167a90e5b7bf353e76fd9d0fd74054e3f716df530be89416c96b3538",
+      "role": "admin",
+      "organization": "AquaLink HQ",
+      "country": "Global",
+      "createdAt": "2026-04-28T23:58:15.764Z"
+    },
+    {
+      "id": "d884a3798d7e",
+      "name": "WaterAid Nigeria",
+      "email": "ngo@wateraid.org",
+      "passwordHash": "fcb4bcb0842f7ef5ff77ddd8721abf4f80868eebc32ae574f67d4518ea14b4ab",
+      "role": "ngo",
+      "organization": "WaterAid",
+      "country": "Nigeria",
+      "createdAt": "2026-04-28T23:58:15.765Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "AQL-00001",
+      "userId": "d884a3798d7e",
+      "destination": "Lagos, Nigeria",
+      "waterType": "Potable",
+      "volumeLitres": 50000,
+      "priority": "Emergency",
+      "status": "active",
+      "requestorType": "NGO",
+      "requiredBy": "2026-05-02",
+      "notes": "Flood relief",
+      "createdAt": "2026-04-28T23:58:15.765Z"
+    },
+    {
+      "id": "AQL-00002",
+      "userId": "d884a3798d7e",
+      "destination": "Nairobi, Kenya",
+      "waterType": "Potable",
+      "volumeLitres": 120000,
+      "priority": "Urgent",
+      "status": "transit",
+      "requestorType": "Government",
+      "requiredBy": "2026-05-05",
+      "notes": "",
+      "createdAt": "2026-04-28T23:58:15.765Z"
+    },
+    {
+      "id": "AQL-00003",
+      "userId": "d884a3798d7e",
+      "destination": "Dhaka, Bangladesh",
+      "waterType": "Agricultural",
+      "volumeLitres": 800000,
+      "priority": "Standard",
+      "status": "pending",
+      "requestorType": "Government",
+      "requiredBy": "2026-05-10",
+      "notes": "Irrigation",
+      "createdAt": "2026-04-28T23:58:15.765Z"
+    },
+    {
+      "id": "AQL-00004",
+      "userId": "7b2c4a766341",
+      "destination": "Ebonyi State, Nigeria",
+      "waterType": "Potable",
+      "volumeLitres": 5000,
+      "priority": "Standard",
+      "status": "pending",
+      "requestorType": "Government / Ministry",
+      "requiredBy": "2026-05-05",
+      "notes": "",
+      "createdAt": "2026-04-29T00:06:43.976Z",
+      "estimatedDelivery": "2026-05-13"
+    }
+  ]
+}
